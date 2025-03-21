@@ -1,14 +1,14 @@
 
 body{
-  padding-bottom: 400px;
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 .navbar {
   background-color: #0c2340;
+  padding: 50px;
   color: white;
-  padding: 10px 20px;
+  padding: 30px 20px;
   border-top: 3px solid rgb(209, 179, 8);
   position: relative;
 }
@@ -29,7 +29,7 @@ body{
 }
 
 .logo img {
-  height: 40px;
+  width: 60px;
   margin-right: 10px;
 }
 
@@ -313,4 +313,50 @@ font-weight: normal;
  .buttton-bar-ul li a{
   text-decoration: none;
   color: white;
+ }
+ .footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+ }
+ .footer-content-icon{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1em;
+  grid-column: auto;
+  padding: 0;
+ }
+ .footer-content-icon-div{
+  grid-column: auto;
+  padding: 0;
+  margin: 0;
+ }
+
+ .footer{
+  background-color: lightgray;
+  display: flex;
+  justify-content:space-around ;
+  align-items: center;
+  margin-top: 50px;
+ }
+ .footer-link1,
+ .footer-link2{
+  
+  display: flex;
+  padding: 15px;
+  justify-content:space-around ;
+  align-items: center;
+  gap: 3em;
+  list-style: none;
+  text-decoration: none;
+
+ }
+
+ .footer-link1 li a,
+ .footer-link2 li a{
+  text-decoration: none;
+  text-decoration: none;
+  color: gray;
+
  }
