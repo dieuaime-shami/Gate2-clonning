@@ -3,7 +3,14 @@ body{
   margin: 0;
   font-family: Arial, sans-serif;
 }
-
+.yellow-line {
+  width: 100px;                          
+  border: none;
+  margin:0;
+  margin-bottom: 30px;
+  height: 7px;   
+  background-color: rgb(174, 145, 66);
+}
 .navbar {
   background-color: #0c2340;
   padding: 50px;
@@ -21,7 +28,11 @@ body{
   margin-top: -8px;
 
 }
-
+.search-icon{
+  width: 60px;
+  margin-top: -15px;
+  
+}
 .logo {
   display: flex;
   align-items: center;
@@ -100,7 +111,7 @@ right: 50px;
   margin-bottom: 90px;
 }
 .body-image img{
- width: 1000px;
+ width: 950px;
  
  position: absolute;
  right: 0;
@@ -119,7 +130,7 @@ right: 50px;
 
 }
 .body-text h2{
-  width: 400px;
+  width: 450px;
   font-size: 50px;
   color:rgb(12, 35, 64);
   font-family: GPC, "Arial Narrow", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
@@ -141,14 +152,12 @@ right: 50px;
   flex: 2fr;
 }
 
-.body-monalisa p{
-
-}
 .body-monalisa h3{
  font-size: 30px;
  }
  .body-monalisa-par{
   font-size: 30px;
+  width: 300px;
   font-family: Sumana, Georgia, "Times New Roman", Times, serif;
  }
  .body-monalisa-text{
@@ -202,6 +211,7 @@ right: 50px;
   font-size:52px;
   color: rgb(255, 255, 255); 
   font-weight: bold;
+  margin-bottom: 0;
 }
 
  .part3-research-text3{
@@ -237,6 +247,7 @@ right: 50px;
   font-size:52px ;
   color: white;
   font-weight: bold;
+  margin-bottom: 0;
  }
  .body-part4-text3{
   font-family:"Libre Franklin", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif ;
@@ -484,7 +495,7 @@ font-weight: normal;
   color: rgb(12, 35, 64);
   font-weight: bold;
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .headeres3{
   font-family: "Libre Franklin", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
@@ -505,4 +516,7 @@ font-weight: normal;
 }
 .notre-dame-focus-text{
   padding-left: 30px;
+}
+.underline{
+  text-decoration: underline;
 }
