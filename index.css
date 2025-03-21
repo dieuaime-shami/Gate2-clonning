@@ -1,0 +1,56 @@
+
+body{
+  padding-bottom: 100px;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.log-image{
+  width: 30px;
+}
+.header-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.body-div{
+  background-image: url(images/feature-bg-1600.jpeg);
+  display: flex;
+  position: relative;
+  height: 650px;
+  margin-bottom: 90px;
+}
+.body-image img{
+ width: 1000px;
+ 
+ position: absolute;
+ right: 0;
+ top: 50px;
+ 
+}
+
+.body-text h2{
+  width: 450px;
+  font-size: 50px;
+  color: rgb(2, 2, 42);
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+}
+.body-text p{
+  
+  font-size: 18px;
+  color: grey;
+}
+
+.body-part2{
+  display: flex;
+}
