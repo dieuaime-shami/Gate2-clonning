@@ -10,6 +10,7 @@ body{
   color: white;
   padding: 10px 20px;
   border-top: 3px solid rgb(209, 179, 8);
+  position: relative;
 }
 
 .navbar-top {
@@ -54,13 +55,14 @@ body{
 }
 
 .navbar-bottom {
-  background-color: white;
-
- margin-top: -32px;
- margin-left: 570px;
- position: fixed;
- height: 50px;
- padding: 10px;
+  background-color:whitesmoke;
+top: 80px;
+right: 50px;
+ position: absolute;
+ height: 40px;
+ padding: 20px;
+ z-index: 2;
+ 
 
 }
 
@@ -258,5 +260,57 @@ width: 100%;
   background-color:#143865;
   font-size: 33px;
   padding: 60px;
+  color: white;
+ }
+
+ .note-dame-motion-date{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-column: auto;
+  
+ }
+ .note-dame-motion-20{
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  
+ }
+ .note-dame-motion-button button{
+  background-color: white;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+ 
+ }
+ .motion-button{
+font-size: 18px;
+color: gray;
+font-weight: normal;
+ }
+ .bottom-bar{
+  background-color: #0c2340;
+  color: white;
+  padding: 30px;
+  left: 0;
+  right: 0;
+  position: relative;
+  margin: 0;
+ }
+ .button-bar-nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ .buttton-bar-ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4em;
+  list-style: none;
+  
+ }
+
+ .buttton-bar-ul li a{
+  text-decoration: none;
   color: white;
  }
